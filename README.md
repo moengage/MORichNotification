@@ -9,4 +9,4 @@ pod install
 
 To update, simply run pod update
 
-For more information about the SDK and manual installation, go to the following link --> http://docs.moengage.com/en/latest/iOS.html
+For more information about the SDK and manual installation, go to the following link --> http://docs.moengage.com/docs/ios-sdk-integration
