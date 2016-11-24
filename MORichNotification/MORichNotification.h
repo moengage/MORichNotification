@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UserNotifications/UserNotifications.h>
-//MORichNotification version 1.0.0
+//MORichNotification version 1.1.0
 
 @interface MORichNotification : NSObject
 /**
@@ -25,5 +25,10 @@
  * Method to enable logs to debug. By default the logs aren't shown.
  */
 +(void)enableDebugging:(BOOL)shouldEnableDebug;
+
+/*
+ * Method to set the App Group ID for Notification impression tracking.
+ */
++(void)setAppGroupID:(NSString*)appGroupID;
 
 @end
