@@ -11,6 +11,9 @@ To update, simply run pod update
 
 For more information about the SDK and manual installation, go to the following link --> http://docs.moengage.com/docs/ios-sdk-integration
 
+V1.1.1
+Fixed a bug where attachment was not shown in Notification if App Group ID was not provided.
+
 V1.1.0
 Enabled tracking of push delivery using Notification Service Extension and AppGroups.
 

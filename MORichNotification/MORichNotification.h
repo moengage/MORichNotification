@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UserNotifications/UserNotifications.h>
-//MORichNotification version 1.1.0
+//MORichNotification version 1.1.1
 
 @interface MORichNotification : NSObject
 /**
