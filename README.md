@@ -11,6 +11,9 @@ To update, simply run pod update
 
 For more information about the SDK and manual installation, go to the following link --> http://docs.moengage.com/docs/ios-sdk-integration
 
+v1.2.0
+Fixed an issue where impression was not tracked in Swift as type casting was failing in handleRichNotification method.
+
 V1.1.1
 Fixed a bug where attachment was not shown in Notification if App Group ID was not provided.
 
