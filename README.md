@@ -11,6 +11,9 @@ To update, simply run pod update
 
 For more information about the SDK and manual installation, go to the following link --> http://docs.moengage.com/docs/ios-sdk-integration
 
+v1.2.1
+Changed event name used to track notification received.
+
 v1.2.0
 Fixed an issue where impression was not tracked in Swift as type casting was failing in handleRichNotification method.
 
