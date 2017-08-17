@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MORichNotification'
-  s.version          = '1.2.1'
+  s.version          = '1.3.0'
   s.summary          = 'MORichNotification is part of the MoEngage SDK which handles Notification Service Extensions from iOS10.'
 
   s.description  = <<-DESC

@@ -11,6 +11,9 @@ To update, simply run pod update
 
 For more information about the SDK and manual installation, go to the following link --> http://docs.moengage.com/docs/ios-sdk-integration
 
+v1.3.0
+Network calls optimized.
+
 v1.2.1
 Changed event name used to track notification received.
 
