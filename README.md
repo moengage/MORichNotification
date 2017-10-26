@@ -12,11 +12,11 @@ Notifications have got a complete revamp in iOS10 with introduction of new UserN
 
 * Then integrate MORichNotification to Notification Service Extension via CocoaPods. Add the following line to your podfile for the Notification Service extension target. 
 
-```pod 'MORichNotification'```
+  ```pod 'MORichNotification'```
 
-To update, simply run ```pod update```
+  To update, simply run ```pod update```
 
-For more information on integration of the SDK, follow this [link](https://docs.moengage.com/docs/ios-10-rich-notifications#section-integrating-moengage-to-notification-service-extension).
+  For more information on integration of the SDK, follow this [link](https://docs.moengage.com/docs/ios-10-rich-notifications#section-integrating-moengage-to-notification-service-extension).
 
 * Make the following code changes to your NotificationService Extension files:
   #### Objective-C:
