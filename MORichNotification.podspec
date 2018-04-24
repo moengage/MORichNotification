@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MORichNotification'
-  s.version          = '1.3.0'
+  s.version          = '2.0.0'
   s.summary          = 'MORichNotification is part of the MoEngage SDK which handles Notification Service Extensions from iOS10.'
 
   s.description  = <<-DESC
@@ -8,19 +8,18 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = 'http://www.moengage.com'
+  s.documentation_url = 'http://docs.moengage.com'
+  s.social_media_url   = 'https://twitter.com/moengage'
 
   s.license      = { :type => 'Commercial', :file => 'LICENSE' }
   s.author       = { 'Chengappa' => 'chengappa@moengage.com' }
   s.platform     = :ios
-
+  s.ios.deployment_target = '10.0'
   s.source           = { :git => 'https://github.com/moengage/MORichNotification.git', :tag => s.version.to_s }
-
-  s.source_files = 'MORichNotification/*.h'
-  s.documentation_url = 'http://docs.moengage.com'
   s.requires_arc = true
-  s.preserve_paths = 'MORichNotification/libMORichNotification.a'
-  s.ios.vendored_library = 'MORichNotification/libMORichNotification.a'
+
+  s.ios.vendored_frameworks = 'MORichNotification/MORichNotification.framework'
+  s.preserve_paths = 'MORichNotification/MORichNotification.framework'
+  s.module_map = 'MORichNotification/MORichNotification.framework/Modules/module.modulemap'
   s.frameworks = 'UserNotifications'
-  s.compiler_flags = '-ObjC'
-  s.header_mappings_dir = 'MORichNotification'
 end

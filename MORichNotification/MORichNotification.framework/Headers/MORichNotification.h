@@ -3,12 +3,19 @@
 //  MORichNotification
 //
 //  Created by Chengappa C D on 26/09/16.
-//  Copyright © 2016 alphadevs. All rights reserved.
+//  Copyright © 2016 MoEngage. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 #import <UserNotifications/UserNotifications.h>
-//MORichNotification version 1.3.0
+//! Project version number for MORichNotification.
+FOUNDATION_EXPORT double MORichNotificationVersionNumber;
+
+//! Project version string for MORichNotification.
+FOUNDATION_EXPORT const unsigned char MORichNotificationVersionString[];
+
+//MORichNotification version 2.0.0
 
 @interface MORichNotification : NSObject
 /**
@@ -32,3 +39,6 @@
 +(void)setAppGroupID:(NSString*)appGroupID;
 
 @end
+
+
+
