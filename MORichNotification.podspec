@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MORichNotification'
-  s.version          = '2.0.0'
+  s.version          = '2.0.1'
   s.summary          = 'MORichNotification is part of the MoEngage SDK which handles Notification Service Extensions from iOS10.'
 
   s.description  = <<-DESC
@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'MORichNotification/MORichNotification.framework'
   s.preserve_paths = 'MORichNotification/MORichNotification.framework'
   s.module_map = 'MORichNotification/MORichNotification.framework/Modules/module.modulemap'
-  s.frameworks = 'UserNotifications'
+  s.weak_frameworks = 'UserNotifications'
 end
