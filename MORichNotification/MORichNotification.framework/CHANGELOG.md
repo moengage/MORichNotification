@@ -1,5 +1,10 @@
 # Change Log:
 
+### Version 3.0.0  *(4th January, 2019)*
+-------------------------------------------
+* SDK now supports updating notification badge count.
+* MORichNotification is now being used for saving the received notifcations, to list the same in the Core SDK Inbox feature.
+
 ### Version 2.0.0  *(23rd April, 2018)*
 -------------------------------------------
 * SDK was changed to dynamic framework

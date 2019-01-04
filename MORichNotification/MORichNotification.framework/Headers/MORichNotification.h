@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 #import <UserNotifications/UserNotifications.h>
+
 //! Project version number for MORichNotification.
 FOUNDATION_EXPORT double MORichNotificationVersionNumber;
 
@@ -16,6 +17,8 @@ FOUNDATION_EXPORT double MORichNotificationVersionNumber;
 FOUNDATION_EXPORT const unsigned char MORichNotificationVersionString[];
 
 //MORichNotification version 2.0.0
+
+NS_ASSUME_NONNULL_BEGIN
 
 @interface MORichNotification : NSObject
 /**
@@ -38,7 +41,14 @@ FOUNDATION_EXPORT const unsigned char MORichNotificationVersionString[];
  */
 +(void)setAppGroupID:(NSString*)appGroupID;
 
+/**
+ Method to update badge on receiving the Notification
+
+ @param bestAttemptContent Mutable Content instance to update badge
+ */
++(void)updateBadgeWithNotificationContent:(UNMutableNotificationContent*)bestAttemptContent;
+
 @end
 
-
+NS_ASSUME_NONNULL_END
 
