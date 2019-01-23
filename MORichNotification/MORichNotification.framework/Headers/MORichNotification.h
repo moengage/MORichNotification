@@ -16,10 +16,6 @@ FOUNDATION_EXPORT double MORichNotificationVersionNumber;
 //! Project version string for MORichNotification.
 FOUNDATION_EXPORT const unsigned char MORichNotificationVersionString[];
 
-//MORichNotification version 2.0.0
-
-NS_ASSUME_NONNULL_BEGIN
-
 @interface MORichNotification : NSObject
 /**
  *  Method to let SDK show Rich Notification
@@ -50,5 +46,4 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
-NS_ASSUME_NONNULL_END
 
