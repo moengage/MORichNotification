@@ -8,15 +8,13 @@
 Notifications have got a complete revamp in iOS10 with introduction of new UserNotifications and UserNotificationsUI framework. Now Apple has given us the ability to add images, gifs, audio and video files to the notifications. MORichNotification contains the part of MoEngageSDK where it handles these Rich Notifications.
 
 
-* First, create a Notification Service Extension for your app by referring the following [link](https://docs.moengage.com/docs/ios-10-rich-notifications#section-creating-notification-service-extension)
+* First, create a Notification Service Extension for your app by referring the following [link](https://docs.moengage.com/docs/push-notification-implementation#section-notification-service-extension-target-implementation)
 
 * Then integrate MORichNotification to Notification Service Extension via CocoaPods. Add the following line to your podfile for the Notification Service extension target. 
 
   ```pod 'MORichNotification'```
 
   To update, simply run ```pod update```
-
-  For more information on integration of the SDK, follow this [link](https://docs.moengage.com/docs/ios-10-rich-notifications#section-integrating-moengage-to-notification-service-extension).
 
 * Make the following code changes to your NotificationService Extension files:
   #### Objective-C:
@@ -58,7 +56,7 @@ Notifications have got a complete revamp in iOS10 with introduction of new UserN
   #### Swift:
   ```
   import UserNotifications
-
+  import MORichNotification
 class NotificationService: UNNotificationServiceExtension {
 
     var contentHandler: ((UNNotificationContent) -> Void)?
